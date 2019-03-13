@@ -27,8 +27,7 @@
       "otherLine": "80"
     },
     "nohook": false,
-    "style": "angular",
     "markerPattern": "^(feat|fix|polish|docs|style|refactor|perf|test|workflow|ci|chore|types|build)",
-    "ticketPattern": "^([A-Z]{2,}-)[0-9]+"
+    "ticketPattern": "(.*#|gh-|[A-Z]{2,}-)[0-9]+"
   }
 }
