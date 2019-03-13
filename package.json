@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
+    "commitplease": "^3.2.0",
     "standard-version": "^5.0.1"
   },
   "scripts": {
@@ -19,5 +20,15 @@
   "bugs": {
     "url": "https://github.com/superliuwr/cc-demo/issues"
   },
-  "homepage": "https://github.com/superliuwr/cc-demo#readme"
+  "homepage": "https://github.com/superliuwr/cc-demo#readme",
+  "commitplease": {
+    "limits": {
+      "firstLine": "72",
+      "otherLine": "80"
+    },
+    "nohook": false,
+    "style": "angular",
+    "markerPattern": "^(feat|fix|polish|docs|style|refactor|perf|test|workflow|ci|chore|types|build)",
+    "ticketPattern": "^([A-Z]{2,}-)[0-9]+"
+  }
 }
