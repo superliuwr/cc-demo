@@ -2,4 +2,4 @@
 
 Test conventional commits and standard-version.
 
-Change it to test rebase after push.
+Change it to test merge after push.
