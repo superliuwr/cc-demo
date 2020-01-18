@@ -1,7 +1,7 @@
 {
   "name": "cc-demo",
   "version": "2.1.0",
-  "description": "",
+  "description": "some test project",
   "main": "index.js",
   "dependencies": {},
   "devDependencies": {
