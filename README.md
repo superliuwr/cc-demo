@@ -1,5 +1,7 @@
 # cc-demo
 
+New line 2
+
 Test conventional commits and standard-version.
 
 New line 3
